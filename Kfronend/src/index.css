@@ -1,0 +1,133 @@
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+.main_page{
+  width: 100%;box-sizing: border-box;
+}
+.Main_navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #9cbdd1;
+  height: 70px;
+}
+.NavLogo{
+  color: #042436;
+  font-size: 24px;
+}
+.main_body{
+  padding: 10px;
+}
+.inputGroup {
+   
+  display: flex;
+ 
+  
+}
+.inputField {
+  width: 34%;
+  padding: 10px;
+
+}
+.inputLabel{
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+.inputLabel label{
+  color: #383535;
+  font-size: 18px;
+}
+.inputMainField{
+  width: 100%;
+}
+.buttonField{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  padding: 10px;
+  margin: 16px 0 0 0;
+}
+.buttonField button {
+  padding: 10px 20px;
+  border: 1px solid #cfdde4;
+  border-radius: 5px;
+  font-size: 18px;
+  background: #c4e5ef;
+  cursor: pointer;
+}
+
+.Parent{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7ff;
+}
+
+.textBox{
+  width: 800px;
+}
+
+
+.buttonField button:hover {
+  background: #2296b9;
+  color: #fff;
+}
+.inputControl{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #426883;
+}
+
+
+.textBoxAnother{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textBoxAnother p{
+  padding: 10px;
+  border-radius: 8px;
+  background: #c4e5ef;
+  margin: 20px;
+  font-size: 18px;
+  color: #2e2c2c;
+  width: 50%;
+  text-align: center;
+}
+.textBoxAnother p:hover {
+  background: #dce9ed;
+}
+ 
+.textBox p {
+  padding: 10px;
+  border-radius: 8px;
+  /* background: #c4e5ef; */
+  margin: 20px;
+  font-size: 18px;
+  color: #000000;
+}
+ 
+
+@media only screen and (max-width: 600px) {
+  .inputGroup {
+      display: inline;
+  }
+  .inputField {
+      width: 100%;
+      box-sizing: border-box;
+  }
+  .buttonField {
+      width: 100%;
+      box-sizing: border-box;
+  }
+}
